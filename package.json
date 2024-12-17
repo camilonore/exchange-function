@@ -2,13 +2,14 @@
   "name": "exchange-function",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/functions": "^4.0.0",
+    "puppeteer": "^21.7.0"
   },
-  "devDependencies": {},
   "main": "src/functions/*.js"
 }
